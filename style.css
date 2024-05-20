@@ -228,8 +228,7 @@ header{
   }
 @media  screen and (max-width:767px) {
     header{
-        height:100vh;
-        overflow-y: hidden;
+        height:100%;
     }
     .inputs,.add{
         max-width:calc(100% - 2em);
@@ -247,10 +246,14 @@ header{
         position: absolute;
         background: #25273c;
         border-radius: 5px;
-        top:120%;
-        translate: transform(-50%,-50%);
+        top:110%;
         width: 90%;
         gap: 20px;
         padding: 1em;
+    }
+
+    .bg-white .toggle{
+        background: #ffffff;
+        color: #000;
     }
 }
