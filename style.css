@@ -239,6 +239,13 @@ header{
 }
 
 @media screen and (max-width:460px) {
+    header{
+        height:100vh;
+    }
+    .tasks{
+        max-height: 300px;
+        overflow-y: auto;
+    }
     .hero{
         justify-content:space-between;
     }
